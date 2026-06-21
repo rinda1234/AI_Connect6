@@ -203,7 +203,7 @@ def run_game(agent_path: str, human_color: str, timeout: float, max_turns: int) 
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("agent", help="대국할 AI 파일 경로")
+    parser.add_argument("agent", help="/home/daebok6962/AI_Connect6/src/agent_template.py")
     parser.add_argument(
         "--human",
         choices=["black", "white"],
